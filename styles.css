@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.piano_container{
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin: 0;
+    position: relative;
+}
+
+
+.notes_family{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.big{
+    width: 50%;
+}
+
+.note{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+.bignote{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.middleNote_big{
+    background-color: black;
+    width: 40%;
+    height: 50%;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleNote{
+    background-color: black;
+    width: 20%;
+    height: 50%;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.note:hover{
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.bignote:hover{
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.middleNote:hover{
+    background-color: rgba(0, 0, 0, .9);
+    cursor: pointer;
+}
+
+.middleNote_big:hover{
+    background-color: rgba(0, 0, 0, .9);
+    cursor: pointer;
+}
+
+
+/* Spacifc positions */
+
+.p_right{
+    right: 40%;
+}
+
+.p_left{
+    left:-10%;
+}
+
+.p_left_m{
+    left: -20%;
+}
+
+.last{
+    left: 60%;
+}

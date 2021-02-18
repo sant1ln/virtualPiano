@@ -1,0 +1,12 @@
+{
+  "name": "piano_game",
+  "version": "1.0.0",
+  "description": "A simple virtual piano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["HTML","CSS","JavaScript","DOM"],
+  "author": "Santiago Lopera Naranjo",
+  "license": "MIT"
+}
