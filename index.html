@@ -1,41 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./statics/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Virtual Piano!</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="piano_container">
-        <div class="notes_family">
-            <div class="note">C</div> <!-- C -->
-            <div class="middleNote p_right">C#</div> <!-- C# -->
-            <div class="note">D</div> <!-- D -->
+      <div class="notes_family">
+        <div class="key note">
+          a > C 
+          <audio id="C" src="" autoplay></audio>
         </div>
-        <div class="notes_family">
-            <div class="middleNote p_left">D#</div> <!-- D# -->
-            <div class="note">E</div> <!-- E -->
-            <div class="note">F</div> <!-- F -->
+        <!-- C -->
+        <div class="key middleNote p_right">
+         w > C#
+          <audio id="Csharp" src="" autoplay></audio>
         </div>
-        <div class="notes_family big">
-            <div class="middleNote_big p_left_m">F#</div> <!-- F# -->
-            <div class="bignote">G</div> <!-- G -->
+        <!-- C# -->
+        <div class="key note">
+         s > D
+          <audio id="D" src="" autoplay></audio>
         </div>
-        <div class="notes_family big">
-            <div class="middleNote_big p_left_m">G#</div> <!-- G# -->
-            <div class="bignote">A</div> <!-- A -->
+        <!-- D -->
+      </div>
+      <div class="notes_family">
+        <div class="key middleNote p_left">
+          D#
+          <audio id="Dsharp" src="" autoplay></audio>
         </div>
-        <div class="notes_family big">
-            <div class="keydown middleNote_big p_left_m">A#</div> <!-- A# -->
-            <div class="keydown bignote">B</div> <!-- B -->
+        <!-- D# -->
+        <div class="key note">
+          E
+          <audio id="E" src="" autoplay></audio>
         </div>
-        <div class="notes_family big">
-            <div class="keydown bignote">C</div> <!-- C -->
-            <div class="keydown middleNote_big last">C#</div> <!-- C# -->
-        </div>        
-
+        <!-- E -->
+        <div class="key note">
+          F
+          <audio id="F" src="" autoplay></audio>
+        </div>
+        <!-- F -->
+      </div>
+      <div class="notes_family big">
+        <div class="key middleNote_big p_left_m">
+          F#
+          <audio id="Fsharp" src="" autoplay></audio>
+        </div>
+        <!-- F# -->
+        <div  class="key bignote">
+          G
+          <audio id="G" src="" autoplay></audio>
+        </div>
+        <!-- G -->
+      </div>
+      <div class="notes_family big">
+        <div class="key middleNote_big p_left_m">
+          G#
+          <audio id="Gsharp" src="" autoplay></audio>
+        </div>
+        <!-- G# -->
+        <div  class="key bignote">
+          A
+          <audio id="A" src="" autoplay></audio>
+        </div>
+        <!-- A -->
+      </div>
+      <div class="notes_family big">
+        <div class="key keydown middleNote_big p_left_m">
+          A#
+          <audio id="Asharp" src="" autoplay></audio>
+        </div>
+        <!-- A# -->
+        <div class="key keydown bignote">
+          B
+          <audio id="B" src="" autoplay></audio>
+        </div>
+        <!-- B -->
+      </div>
+      <div class="notes_family big">
+        <div class="key keydown bignote">
+          C
+          <audio id="CC" src="" autoplay></audio>
+        </div>
+        <!-- C -->
+        <div class="key keydown middleNote_big last">
+          C#
+          <audio id="Csharpsharp" src="" autoplay></audio>
+        </div>
+        <!-- C# -->
+      </div>
     </div>
-</body>
+
+    <script src="./script.js"></script>
+  </body>
 </html>

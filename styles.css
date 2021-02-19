@@ -7,6 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family:  'Open Sans', sans-serif;
+
 }
 
 .piano_container{
@@ -82,6 +83,11 @@ body{
     background-color: rgba(0, 0, 0, .9);
     cursor: pointer;
 }
+
+/* .pressed{
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+} */
 
 .middleNote_big:hover{
     background-color: rgba(0, 0, 0, .9);
